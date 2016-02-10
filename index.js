@@ -4,6 +4,7 @@
 var path = require('path');
 var libPath = path.join(__dirname, 'lib');
 var pagify = require(path.join(libPath, 'pagify'));
+var _ = require('lodash');
 
 module.exports = function(sails){
 
